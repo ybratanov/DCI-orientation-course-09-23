@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Gill Sans";
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h3 {
+  color: brown;
+  text-decoration: underline;
+}
+
+.header {
+  font-weight: bolder;
+  font-family: "Segoe UI";
+  font-size: 12px;
+}
+
+.first-section {
+  font-family: Verdana;
+  background-color: gray;
+  border: 3px dotted rgb(224, 17, 17);
+}
+
+#second-section {
+  background-color: rgba(20, 189, 59, 0.538);
+  border: 3px groove rgb(182, 216, 14);
+  font-weight: bolder;
+  font-family: "Segoe UI";
+  font-size: 12px;
+}
+
+#third-section {
+  border: 3px solid black;
+}
+
+section p {
+  background-color: blue;
+  color: aliceblue;
+}
+
+h4 + p {
+  background-color: yellow;
+  color: black;
+}

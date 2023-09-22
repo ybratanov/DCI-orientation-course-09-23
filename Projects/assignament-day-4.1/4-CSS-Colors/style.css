@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(/image/image.jpg/);
+    background-position-x: center;
+    background-position-y: 50%;
+}
+
+.color-names {
+    color: red;
+}
+
+.rgb-colors {
+    color: rgb(0, 0, 255);
+}
+
+.rgba-colors {
+    color: rgba(0, 255, 0, 0.5);
+}
+
+.hex-colors {
+    color: #89057eb7
+}

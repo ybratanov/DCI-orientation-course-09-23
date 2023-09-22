@@ -1,0 +1,41 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(125, 70, 70);
+}
+h1{
+    display: contents;
+    justify-content: center;
+}
+.container-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap:wrap;
+  
+}
+/* ======================================= */
+.info-magic {
+  border: 2px black dashed;
+  padding: 15px;
+  margin: 15px;
+  align-self: center;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+}
+
+.magic-image {
+  border: 5px groove aliceblue;
+  padding: 15px;
+  margin: 5px;
+  align-self: center;
+}

@@ -1,0 +1,148 @@
+body {
+    background-size: contain;
+    background-image: url(/image/pexels-lukas-616401.jpg);
+}
+
+.navbar {
+    display: inline-flexbox;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: right;
+    margin: 15px;
+
+}
+
+.menu {
+    border: solid 1px;
+    border-color: black;
+    border-radius: 0.05%;
+    border-style: solid;
+    font-weight: bold;
+    text-align-last: center;
+
+}
+
+h1 {
+    text-align-last: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: brown;
+    margin-bottom: auto;
+    border: solid 1px;
+    border-color: black;
+    border-radius: 2%;
+    border-style: solid;
+    background-color: #d39797;
+    opacity: 0.8;
+
+}
+
+h2 {
+    font-size: 35px;
+    color: rgb(34, 53, 165);
+    border: solid 1px;
+    border-color: black;
+    border-style: solid;
+    font-weight: bold;
+    background-color: #79db99;
+    opacity: 0.8;
+}
+
+h3 {
+    font: 1em sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    border: solid 1px;
+    border-color: black;
+    border-radius: 2%;
+    border-style: double;
+    background-color: #79db99;
+    opacity: 0.8;
+}
+
+.first-menu {
+
+    display: grid;
+    margin: 50px;
+    padding: 75px;
+    font-size: 30px;
+    opacity: 0.9;
+    border-color: black;
+    border-radius: 0.9%;
+    border-style: double;
+    align-items: baseline;
+
+}
+
+.prom-menu {
+    display: grid;
+    background-color: rgb(103, 20, 151);
+    background-color: #aa9a9a;
+    margin: 50px;
+    padding: 40px;
+    font-size: 25px;
+    opacity: 0.9;
+    border-color: black;
+    border-radius: 0.5%;
+    border-style: double;
+}
+
+.order-list {
+    display: grid;
+    background-color: rgb(38, 255, 30);
+    background-color: #d39797;
+    margin: 30px;
+    padding: 40px;
+    font-size: 30px;
+    opacity: 0.9;
+    border-color: black;
+    border-radius: 0.5%;
+    border-style: double;
+}
+.how-reg {
+    text-overflow: ellipsis;
+    text-align: left;
+    box-sizing: content-box;
+    inset-block: auto;
+}
+
+.login {
+    display: inline-table;
+    background-color: rgb(103, 20, 151);
+    background-color: #aa9a9a;
+    margin: 20px;
+    padding: 40px;
+    font-size: 16px;
+    opacity: 0.9;
+    border-color: black;
+    border-radius: 0.5%;
+    border-style: double;
+}
+
+.singup {
+    display: inline-table;
+    background-color: rgb(103, 20, 151);
+    background-color: #aa9a9a;
+    margin: 20px;
+    padding: 40px;
+    font-size: 16px;
+    opacity: 0.9;
+    border-color: black;
+    border-radius: 0.5%;
+    border-style: double;
+   
+}
+
+.contact-form {
+    display: table-cell;
+    background-color: rgb(103, 20, 151);
+    background-color: #aa9a9a;
+    margin: 10px;
+    padding: 15px;
+    font-size: 16px;
+    opacity: 0.9;
+    border-color: black;
+    border-radius: 0.5%;
+    border-style: double;
+    
+} 

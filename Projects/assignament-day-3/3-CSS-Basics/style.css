@@ -1,0 +1,41 @@
+body {
+    background-color: gray;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+  font-style: italic;
+  color: brown;
+  background-color: bisque;
+}
+
+h3 {
+    font-size: 23px;
+    font-style: italic;
+    color: brown;
+    background-color: rgb(6, 109, 87);
+}
+.p-3-with-CSS{
+    font-size: 12px;
+  font-style: bold;
+  color: brown;
+  background-color: bisque;
+}
+.p-3-with-CSS-1{
+    font-size: 17px;
+  font-style: normal;
+  color: brown;
+  background-color: rgb(4, 66, 8);
+}
+.p-3-with-CSS-2{
+    font-size: 22px;
+  font-style: bold;
+  color: brown;
+  background-color: rgb(244, 137, 8);
+}
+
+footer {
+    color: aliceblue;
+    text-decoration-color: blue;
+}

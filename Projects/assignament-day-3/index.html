@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3-CSS-basics</title>
+    <link rel="stylesheet" href="/3-CSS-Basics/style.css" />
+    <style>
+      p {
+        color: rgb(26, 255, 0);
+      }
+      heading {
+        color: white;
+        background-color: rgb(24, 161, 192);
+        font-size: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">News</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </div> -->
+    <h1>CSS: 3 different ways</h1>
+    <div>
+      <section>
+        <heading style="color: white; background-color: black; font-size: large"
+          >1.Inline CSS</heading
+        >
+        <ol>
+          <p>
+            An inline style may be used to apply a unique style for a single
+            element.
+          </p>
+          <p style="color: blue">
+            To use inline styles, add the style attribute to the relevant
+            element. The style attribute can contain any CSS property.
+          </p>
+          <p class="p-3-with-CSS">
+            In the third paragraph, we will use an external <b>css</b> file for
+            styling. in which file we will style and <b>h1</b>
+          </p>
+        </ol>
+      </section>
+      <section>
+        <heading>2.Internal CSS</heading>
+        <ol>
+          <p>
+            An internal style sheet may be used if one single HTML page has a
+            unique style.
+          </p>
+          <p style="color: blue">
+            The internal style is defined inside the (style) element, inside the
+            head section.
+          </p>
+          <p class="p-3-with-CSS-1">
+            In the third paragraph, we will use an external <b>css</b> file for
+            styling. in which file we will style and <b>h1</b>
+          </p>
+        </ol>
+      </section>
+      <section>
+        <heading><h3>3.External CSS</h3></heading>
+        <ol>
+          <p>
+            With an external style sheet, you can change the look of an entire
+            website by changing just one file!
+          </p>
+          <p style="color: blue">
+            Each HTML page must include a reference to the external style sheet
+            file inside the <link /> element, inside the head section.
+          </p>
+          <p class="p-3-with-CSS-2">
+            In the third paragraph, we will use an external <b>css</b> file for
+            styling. in which file we will style and <b>h1</b>
+          </p>
+        </ol>
+      </section>
+      <div class="footer">
+        <footer
+          style="text-align: center; font-size: 12px; border-top-style: solid"
+        >
+          <a href="https://www.w3schools.com/" target="_blank">About Us</a>|
+          <a href="https://www.w3schools.com/" target="_top">Privacy Policy</a>|
+          <a href="https://www.w3schools.com/" target="_parent">Contact Us</a>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
+<!-- Create a file named index.html​ under the new folder.
+
+--This file should include the basic HTML structure 
+(boilerplate) (with the ! shortcut).
+
+--Add 3 sections with 3 headings and add 2 paragraphs 
+inside each section.
+
+--Create a file named style.css inside the 3-CSS-Basics folder.
+Link the CSS file to your HTML file in the head of the HTML.
+add styles to the headings and the paragraphs 
+inside the external css file.
+
+--use inline styling to style the second paragraph from each section into a 
+different text color than the first paragraph.
+
+--add a footer with contact information .
+--use internal styling to style the footer and change the font size , 
+color and background color.  -->
